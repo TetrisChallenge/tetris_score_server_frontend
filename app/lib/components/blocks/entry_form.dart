@@ -45,7 +45,7 @@ class EntryForm extends HookConsumerWidget {
                     height: _formCardHeight,
                     child: TextFormField(
                       decoration: const InputDecoration(
-                        labelText: 'user name',
+                        labelText: 'program name',
                       ),
                       controller: _userNameFormController,
                       validator: (String? value) {
